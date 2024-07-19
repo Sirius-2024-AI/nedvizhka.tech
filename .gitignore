@@ -1,0 +1,4 @@
+.idea
+.venv
+nedvizhka_frontend/build
+nedvizhka_frontend/node_modules

@@ -6,12 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="498b0ab4-1063-4429-8aca-29833d45aacb" name="Changes" comment="routine: modified gitignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/global/pg_control" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/global/pg_control" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/pg_wal/000000010000000000000001" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/pg_wal/000000010000000000000001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/postmaster.pid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nedvizhka_frontend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/nedvizhka_frontend/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nedvizhka_frontend" beforeDir="false" afterPath="$PROJECT_DIR$/nedvizhka_frontend" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nedvizhka_tech_api/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/nedvizhka_tech_api/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nedvizhka_tech_api/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nedvizhka_tech_api/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +24,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/nedvizhka_frontend" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -56,7 +53,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/danii/PycharmProjects/nedvizhka.tech/model_api",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -107,7 +104,7 @@
       <workItem from="1721372700577" duration="997000" />
       <workItem from="1721374307743" duration="7952000" />
       <workItem from="1721382774380" duration="37656000" />
-      <workItem from="1721475531445" duration="12653000" />
+      <workItem from="1721475531445" duration="14545000" />
     </task>
     <task id="LOCAL-00001" summary="routine: modified gitignore">
       <option name="closed" value="true" />

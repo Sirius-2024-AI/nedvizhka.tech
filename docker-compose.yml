@@ -19,8 +19,8 @@ services:
       DATABASE_USER: admin
       DATABASE_PASSWORD: admin
       SMTP_PASSWORD: cpEibJnwF6mjQbYqZYkS
-      DATABASE_HOST: database
-      ML_MODEL_HOST: model
+      DATABASE_HOST: 81.200.149.136
+      ML_MODEL_HOST: 81.200.149.136
     restart: always
     depends_on:
       - database
@@ -41,7 +41,6 @@ services:
     environment:
       POSTGRES_PASSWORD: admin
       POSTGRES_USER: admin
-    restart: always
     volumes:
       - ./container-data/database/data:/var/lib/postgresql/data
       - ./container-data/database/init.sql:/docker-entrypoint-initdb.d/init.sql

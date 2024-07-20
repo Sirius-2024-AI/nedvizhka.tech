@@ -1,37 +1,37 @@
 version: '2.2'
 
 services:
-#  frontend:
-#    build: ./nedvizhka_frontend
-#    container_name: frontend
-#    restart: always
-#    expose:
-#      - 80
-#    ports:
-#      - 80:80
-#
-#  backend:
-#    build: ./nedvizhka_tech_api
-#    container_name: backend
-#    ports:
-#      - 8000:8000
-#    environment:
-#      DATABASE_USER: admin
-#      DATABASE_PASSWORD: admin
-#      SMTP_PASSWORD: cpEibJnwF6mjQbYqZYkS
-#      DATABASE_HOST: database
-#      ML_MODEL_HOST: model
-#    restart: always
-#    depends_on:
-#      - database
-#      - model
-#
-#  model:
-#    build: ./model_api
-#    container_name: model
-#    restart: always
-#    ports:
-#      - 7777:7777
+  frontend:
+    build: ./nedvizhka_frontend
+    container_name: frontend
+    restart: always
+    expose:
+      - 80
+    ports:
+      - 80:80
+
+  backend:
+    build: ./nedvizhka_tech_api
+    container_name: backend
+    ports:
+      - 8000:8000
+    environment:
+      DATABASE_USER: admin
+      DATABASE_PASSWORD: admin
+      SMTP_PASSWORD: cpEibJnwF6mjQbYqZYkS
+      DATABASE_HOST: database
+      ML_MODEL_HOST: model
+    restart: always
+    depends_on:
+      - database
+      - model
+
+  model:
+    build: ./model_api
+    container_name: model
+    restart: always
+    ports:
+      - 7777:7777
 
   database:
     image: postgres:16

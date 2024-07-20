@@ -1,0 +1,59 @@
+version: '2.2'
+
+services:
+#  frontend:
+#    build: ./nedvizhka_frontend
+#    container_name: frontend
+#    restart: always
+#    expose:
+#      - 80
+#    ports:
+#      - 80:80
+#
+#  backend:
+#    build: ./nedvizhka_tech_api
+#    container_name: backend
+#    ports:
+#      - 8000:8000
+#    environment:
+#      DATABASE_USER: admin
+#      DATABASE_PASSWORD: admin
+#      SMTP_PASSWORD: cpEibJnwF6mjQbYqZYkS
+#      DATABASE_HOST: database
+#      ML_MODEL_HOST: model
+#    restart: always
+#    depends_on:
+#      - database
+#      - model
+#
+#  model:
+#    build: ./model_api
+#    container_name: model
+#    restart: always
+#    ports:
+#      - 7777:7777
+
+  database:
+    image: postgres:16
+    container_name: postgres
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_PASSWORD: admin
+      POSTGRES_USER: admin
+    restart: always
+    volumes:
+      - ./container-data/database/data:/var/lib/postgresql/data
+      - ./container-data/database/init.sql:/docker-entrypoint-initdb.d/init.sql
+
+#  superset:
+#    image: abhioncbr/docker-superset:0.35.0
+#    restart: always
+#    environment:
+#      ADMIN_USERNAME: admin
+#      ADMIN_PWD: admin
+#    ports:
+#      - 808:8088
+#      - 5555:5555
+    #volumes:
+    #  - ./container-data/superset/config/:/home/superset/config/

@@ -6,50 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="498b0ab4-1063-4429-8aca-29833d45aacb" name="Changes" comment="routine: modified gitignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/base/5/1247" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/base/5/1247" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/base/5/1247_vm" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/base/5/1247_vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/base/5/1249" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/base/5/1249" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/base/5/1249_fsm" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/base/5/1249_fsm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/base/5/1249_vm" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/base/5/1249_vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/base/5/1259" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/base/5/1259" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/base/5/1259_vm" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/base/5/1259_vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/base/5/2224" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/base/5/2224" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/base/5/2579" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/base/5/2579" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/base/5/2604" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/base/5/2604" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/base/5/2606" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/base/5/2606" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/base/5/2606_vm" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/base/5/2606_vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/base/5/2608" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/base/5/2608" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/base/5/2608_fsm" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/base/5/2608_fsm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/base/5/2608_vm" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/base/5/2608_vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/base/5/2610" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/base/5/2610" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/base/5/2610_fsm" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/base/5/2610_fsm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/base/5/2610_vm" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/base/5/2610_vm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/base/5/2656" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/base/5/2656" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/base/5/2657" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/base/5/2657" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/base/5/2658" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/base/5/2658" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/base/5/2659" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/base/5/2659" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/base/5/2662" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/base/5/2662" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/base/5/2663" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/base/5/2663" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/base/5/2664" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/base/5/2664" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/base/5/2665" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/base/5/2665" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/base/5/2666" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/base/5/2666" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/base/5/2667" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/base/5/2667" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/base/5/2673" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/base/5/2673" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/base/5/2674" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/base/5/2674" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/base/5/2678" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/base/5/2678" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/base/5/2679" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/base/5/2679" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/base/5/2703" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/base/5/2703" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/base/5/2704" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/base/5/2704" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/base/5/3455" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/base/5/3455" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/base/5/5002" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/base/5/5002" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/base/5/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/base/5/pg_internal.init" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/container-data/database/data/global/pg_control" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/global/pg_control" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/global/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/global/pg_internal.init" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/pg_stat/pgstat.stat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/container-data/database/data/pg_wal/000000010000000000000001" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/pg_wal/000000010000000000000001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/data/pg_xact/0000" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/data/pg_xact/0000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/container-data/database/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/container-data/database/init.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/container-data/database/data/postmaster.pid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nedvizhka_frontend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/nedvizhka_frontend/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nedvizhka_tech_api/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/nedvizhka_tech_api/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nedvizhka_tech_api/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nedvizhka_tech_api/requirements.txt" afterDir="false" />
     </list>
@@ -67,7 +27,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/nedvizhka_tech_api" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/nedvizhka_frontend" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -90,6 +50,7 @@
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
@@ -146,7 +107,7 @@
       <workItem from="1721372700577" duration="997000" />
       <workItem from="1721374307743" duration="7952000" />
       <workItem from="1721382774380" duration="37656000" />
-      <workItem from="1721475531445" duration="7807000" />
+      <workItem from="1721475531445" duration="12653000" />
     </task>
     <task id="LOCAL-00001" summary="routine: modified gitignore">
       <option name="closed" value="true" />

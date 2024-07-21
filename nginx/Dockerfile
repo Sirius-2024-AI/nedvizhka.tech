@@ -1,22 +1,7 @@
-FROM node:16-alpine
-
-WORKDIR .
-
-COPY ./frontend_main ./frontend_main
-COPY ./frontend_business ./frontend_business
-
-WORKDIR ./frontend_main
-
-RUN npm install
-RUN npm run build
-
-WORKDIR ./frontend_business
-
-RUN npm install
-RUN npm run build
-
 FROM nginx:stable-alpine
 
+COPY ../frontend_main/build /usr/share/nginx/html/frontend_main
+COPY ../frontend_business/build /usr/share/nginx/html/frontend_business
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 EXPOSE 80

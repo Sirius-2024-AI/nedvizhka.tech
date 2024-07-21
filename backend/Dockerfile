@@ -4,8 +4,8 @@ FROM python:3.12
 #
 WORKDIR /app
 
-ADD .fullchain.pem /ssl/fullchain.pem
-ADD .privkey.pem /ssl/privkey.pem
+COPY fullchain.pem /ssl/fullchain.pem
+COPY privkey.pem /ssl/privkey.pem
 COPY . .
 
 #

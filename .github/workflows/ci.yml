@@ -1,5 +1,4 @@
 name: Build and Push Docker Image
-
 on:
     push:
         branches:
@@ -17,6 +16,8 @@ jobs:
               uses: actions/checkout@v4
             
             - name: Build Docker image
+              env:
+                  CI: ""
               run:
                 cd frontend_main;
                 npm install;
@@ -26,7 +27,7 @@ jobs:
                 npm install;
                 npm run build;
                 cd ..;
-                cp -r frontend_main nginx/frontend_maincp -r frontend_business nginx/frontend_business;
+                cp -r frontend_main nginx/frontend_maincp -r frontend_business nginx/frontend_business;bui
                 docker-compose -f docker-compose.yml build;
 
             - name: Start Docker Compose services

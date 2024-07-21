@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="498b0ab4-1063-4429-8aca-29833d45aacb" name="Changes" comment="routine: modified gitignore">
+      <change afterPath="$PROJECT_DIR$/nginx/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/nginx.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nedvizhka_frontend" beforeDir="false" afterPath="$PROJECT_DIR$/nedvizhka_frontend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nedvizhka_tech_api/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/nedvizhka_tech_api/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +25,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -32,12 +33,12 @@
     &quot;assignee&quot;: &quot;Qwest1204&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Sirius-2024-AI/model_api.git&quot;,
-    &quot;accountId&quot;: &quot;d3941031-31b5-468e-8f72-5c21717f0e38&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:Sirius-2024-AI/nedvizhka.tech.git",
+    "accountId": "d3941031-31b5-468e-8f72-5c21717f0e38"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -70,11 +71,11 @@
       <recent name="C:\Users\danii\PycharmProjects\nedvizhka.tech\nedvizhka_tech_api" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\danii\PycharmProjects\nedvizhka.tech\nginx" />
       <recent name="C:\Users\danii\PycharmProjects\nedvizhka.tech\container-data\database" />
       <recent name="C:\Users\danii\PycharmProjects\nedvizhka.tech\nedvizhka_frontend" />
       <recent name="C:\Users\danii\PycharmProjects\nedvizhka.tech" />
       <recent name="C:\Users\danii\PycharmProjects\nedvizhka.tech\model_api" />
-      <recent name="C:\Users\danii\PycharmProjects\nedvizhka.tech\model_api\scr" />
     </key>
   </component>
   <component name="RunManager">
@@ -104,7 +105,7 @@
       <workItem from="1721372700577" duration="997000" />
       <workItem from="1721374307743" duration="7952000" />
       <workItem from="1721382774380" duration="37656000" />
-      <workItem from="1721475531445" duration="14545000" />
+      <workItem from="1721475531445" duration="29704000" />
     </task>
     <task id="LOCAL-00001" summary="routine: modified gitignore">
       <option name="closed" value="true" />

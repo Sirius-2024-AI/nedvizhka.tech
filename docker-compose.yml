@@ -2,7 +2,7 @@ version: '2.2'
 
 services:
   frontend:
-    build: ./frontend_main
+    build: ./nginx
     container_name: frontend
     restart: always
     expose:

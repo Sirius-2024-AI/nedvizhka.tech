@@ -1,0 +1,34 @@
+name: CI
+
+on:
+  push:
+    branches:
+      – master
+  pull_request:
+    branches:
+      – master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      – name: Checkout repository
+        uses: actions/checkout@v4
+
+      – name: Build Docker images
+        run: |
+          docker-compose -f docker-compose.yml build
+
+      – name: Start Docker Compose services
+        run: |
+          docker-compose -f docker-compose.yml up -d
+
+      – name: Run tests
+        run: |
+          echo "Running tests..."
+          echo "Nothing to test :)"
+
+      – name: Stop and remove Docker Compose services
+        run: |
+          docker-compose -f docker-compose.yml down

@@ -22,7 +22,7 @@ const RegistrationForm: React.FC = () => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log(formData);
-    fetch('https://business.nedvizhka.tech:8000/api/business/request', {
+    fetch('http://business.nedvizhka.tech:8000/api/business/request', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

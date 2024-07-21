@@ -17,7 +17,7 @@
     "mail_sender": "Недвижка.tech – оценим стоимость вашей недвижимости"
   },
   "ml_model": {
-    "url": "http://model:7777/get_price"
+    "url": "https://model:7777/get_price"
   },
   "third_party_api": {
     "geosuggest": "7be9e25f-cdc1-464b-935c-689460fc07a7"

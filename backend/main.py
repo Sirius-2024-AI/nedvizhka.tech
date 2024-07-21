@@ -23,7 +23,7 @@ def init_config():
         cfg['database']['host'] = os.environ.get("DATABASE_HOST", default="81.200.149.136")
         cfg['database']['user'] = os.environ.get("DATABASE_USER", default="admin")
         cfg['smtp']['auth']['password'] = os.environ.get("SMTP_PASSWORD", default="123")
-        cfg['ml_model']['url'] = f"http://{os.environ.get('ML_MODEL_HOST', default='81.200.149.136')}:7777/get_price"
+        cfg['ml_model']['url'] = f"https://{os.environ.get('ML_MODEL_HOST', default='81.200.149.136')}:7777/get_price"
         return cfg
 
 

@@ -238,7 +238,7 @@ const EvaluationForm: React.FC = () => {
       }
 
       // Отправка данных на сервер
-      fetch('http://nedvizhka.tech:8000/api/individual/valuation',{
+      fetch('https://nedvizhka.tech:8000/api/individual/valuation',{
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

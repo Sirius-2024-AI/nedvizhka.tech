@@ -1,0 +1,29 @@
+{
+  "database": {
+    "host": "database",
+    "port": 5432,
+    "user": "admin",
+    "password": "admin",
+    "database": "postgres"
+  },
+  "smtp": {
+    "host": "smtp.mail.ru",
+    "port": 465,
+    "secure": true,
+    "auth": {
+      "user": "noreply@nedvizhka.tech",
+      "password": "PASS"
+    },
+    "mail_sender": "Недвижка.tech – оценим стоимость вашей недвижимости"
+  },
+  "ml_model": {
+    "url": "http://model:7777/get_price"
+  },
+  "third_party_api": {
+    "geosuggest": "7be9e25f-cdc1-464b-935c-689460fc07a7"
+  },
+  "mails": {
+    "corporate": "i@khokhlovkirill.ru",
+    "support": "support@khokhlovkirill.ru"
+  }
+}

@@ -1,16 +1,16 @@
 FROM node:16-alpine
 
-WORKDIR /tmp
+WORKDIR .
 
-COPY ./frontend_main /usr/share/nginx/html/frontend_main
-COPY ./frontend_business /usr/share/nginx/html/frontend_business
+COPY ./frontend_main ./frontend_main
+COPY ./frontend_business ./frontend_business
 
-WORKDIR /usr/share/nginx/html/frontend_main
+WORKDIR ./frontend_main
 
 RUN npm install
 RUN npm run build
 
-WORKDIR /usr/share/nginx/html/frontend_business
+WORKDIR ./frontend_business
 
 RUN npm install
 RUN npm run build

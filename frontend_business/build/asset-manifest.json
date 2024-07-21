@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ee295a34.css",
+    "main.js": "/static/js/main.84548da8.js",
+    "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
+    "static/media/MabryPro-Bold.ttf": "/static/media/MabryPro-Bold.8b1f2d83b656878cf4b0.ttf",
+    "static/media/MabryPro-Bold_1.ttf": "/static/media/MabryPro-Bold_1.8b1f2d83b656878cf4b0.ttf",
+    "static/media/MabryPro-Bold.woff": "/static/media/MabryPro-Bold.7d19de89d145e21bcaa8.woff",
+    "static/media/MabryPro-Bold_1.woff": "/static/media/MabryPro-Bold_1.7d19de89d145e21bcaa8.woff",
+    "static/media/MabryPro-Bold.woff2": "/static/media/MabryPro-Bold.e85cea1eabf60c25db09.woff2",
+    "static/media/MabryPro-Bold_1.woff2": "/static/media/MabryPro-Bold_1.e85cea1eabf60c25db09.woff2",
+    "index.html": "/index.html",
+    "main.ee295a34.css.map": "/static/css/main.ee295a34.css.map",
+    "main.84548da8.js.map": "/static/js/main.84548da8.js.map",
+    "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee295a34.css",
+    "static/js/main.84548da8.js"
+  ]
+}

@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('./fonts/stylesheet.css');
+
+html {
+  transition: width 2s, height 4s;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -3,10 +3,10 @@ name: CI
 on:
   push:
     branches:
-      – master
+      – main
   pull_request:
     branches:
-      – master
+      – main
 
 jobs:
   build:
@@ -14,11 +14,11 @@ jobs:
 
     steps:
       – name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v2
 
       – name: Build Docker images
         run: |
-          docker-compose -f docker-compose.yml build
+          docker-compose -f docker-compose.yml build 
 
       – name: Start Docker Compose services
         run: |
@@ -27,7 +27,7 @@ jobs:
       – name: Run tests
         run: |
           echo "Running tests..."
-          echo "Nothing to test :)"
+          echo "There are no tests :)"
 
       – name: Stop and remove Docker Compose services
         run: |

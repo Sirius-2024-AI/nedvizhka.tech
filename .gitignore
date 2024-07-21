@@ -2,3 +2,6 @@
 .venv
 nedvizhka_frontend/build
 nedvizhka_frontend/node_modules
+*__pycache__*
+*catboost_info*
+.DS_Store

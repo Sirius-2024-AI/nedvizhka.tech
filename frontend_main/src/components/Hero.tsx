@@ -20,10 +20,10 @@ const Hero: React.FC<HeroProps> = ({ heroImage, buttonImage }) => {
                   оценим стоимость вашей недвижимости
                 </span>
               </h1>
-              <a className="font-normal mt-11 text-lg max-md:mt-10 max-md:max-w-full">
+              <p className="font-normal mt-11 text-lg max-md:mt-10 max-md:max-w-full">
                 Благодаря алгоритмам AI точная оценка стоимости вашей
                 недвижимости займет не более 5 минут
-              </a>
+              </p>
             </div>
             <a href="#evaluation">
               <img

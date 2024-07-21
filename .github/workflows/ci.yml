@@ -1,34 +1,33 @@
-name: CI
+name: Build and Push Docker Image
 
 on:
-  push:
-    branches:
-      – main
-  pull_request:
-    branches:
-      – main
+    push:
+        branches:
+            - '*'
+    pull_request:
+        branches:
+            - '*'
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+    build:
+        runs-on: ubuntu-latest
 
-    steps:
-      – name: Checkout repository
-        uses: actions/checkout@v2
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v4
+            
+            - name: Build Docker image
+              run:
+                  docker-compose -f docker-compose.yml build
 
-      – name: Build Docker images
-        run: |
-          docker-compose -f docker-compose.yml build 
+            - name: Start Docker Compose services
+              run:
+                  docker-compose -f docker-compose.yml up -d
 
-      – name: Start Docker Compose services
-        run: |
-          docker-compose -f docker-compose.yml up -d
-
-      – name: Run tests
-        run: |
-          echo "Running tests..."
-          echo "There are no tests :)"
-
-      – name: Stop and remove Docker Compose services
-        run: |
-          docker-compose -f docker-compose.yml down
+            - name: Run tests
+              run:
+                  echo "Running tests..."
+                  
+            - name:
+              run:
+                  docker-compose -f docker-compose.yml down

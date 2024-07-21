@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Request, Response
 
-from scr.utils import *
+from src.utils import *
 
 app = FastAPI()
 

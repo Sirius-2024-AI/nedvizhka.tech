@@ -95,7 +95,7 @@ const RegistrationForm: React.FC = () => {
         </label>
         <input
           id="url"
-          type="url"
+          type="text"
           value={formData.url}
           onChange={handleChange}
           placeholder="Укажите URL вашей компании"

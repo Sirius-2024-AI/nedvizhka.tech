@@ -30,8 +30,7 @@ def init_config():
 config = init_config()
 app = FastAPI()
 
-try:
-    db = sqlalchemy.create_engine(
+db = sqlalchemy.create_engine(
         "postgresql+psycopg2://{}:{}@{}:{}/{}".format(
             config["database"]["user"],
             config["database"]["password"],
@@ -41,10 +40,8 @@ try:
         )
     )
 
-    conn = db.connect()
-    metadata = sqlalchemy.MetaData()
-except Exception as e:
-    print(e)
+conn = db.connect()
+metadata = sqlalchemy.MetaData()
 
 origins = ["*"]
 app.add_middleware(

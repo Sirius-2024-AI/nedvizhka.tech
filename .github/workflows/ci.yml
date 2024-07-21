@@ -19,14 +19,6 @@ jobs:
               env:
                   CI: ""
               run:
-                cd frontend_main;
-                npm install;
-                npm run build;
-                cd ..;
-                cd frontend_business;
-                npm install;
-                npm run build;
-                cd ..;
                 docker-compose -f docker-compose.yml build;
 
             - name: Start Docker Compose services

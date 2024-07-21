@@ -4,10 +4,10 @@ FROM python:3.12
 #
 WORKDIR /app
 
-#
-COPY . .
 COPY fullchain.pem /ssl/fullchain.pem
 COPY privkey.pem /ssl/privkey.pem
+COPY . .
+
 #
 RUN pip install --upgrade -r /app/requirements.txt
 

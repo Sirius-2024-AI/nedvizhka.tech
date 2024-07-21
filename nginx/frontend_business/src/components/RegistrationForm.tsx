@@ -21,6 +21,10 @@ const RegistrationForm: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    if (!formData.consent || !formData.marketing) {
+      alert("Пожалуйста, дайте разрешение на рассылку сообщений и на обработку данных");
+      return;
+    }
     console.log(formData);
     fetch('http://business.nedvizhka.tech:8000/api/business/request', {
       method: 'POST',

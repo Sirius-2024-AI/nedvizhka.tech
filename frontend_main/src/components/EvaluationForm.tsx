@@ -161,7 +161,7 @@ const EvaluationForm: React.FC = () => {
       }
     };
     geocodeCityAndMetro(String(city), String(nearestMetro));
-  }, []);
+  }, [city, nearestMetro]);
 
   const calculateDistance = (coords1: [number, number], coords2: [number, number]): number => {
     const R = 6371; // Радиус Земли в км

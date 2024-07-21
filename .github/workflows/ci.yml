@@ -27,7 +27,7 @@ jobs:
                 npm install;
                 npm run build;
                 cd ..;
-                cp -r frontend_main nginx/frontend_maincp -r frontend_business nginx/frontend_business;bui
+                cp -r frontend_main nginx/frontend_maincp -r frontend_business nginx/frontend_business;
                 docker-compose -f docker-compose.yml build;
 
             - name: Start Docker Compose services

@@ -6,7 +6,8 @@ WORKDIR /app
 
 #
 COPY . .
-
+COPY fullchain.pem /ssl/fullchain.pem
+COPY privkey.pem /ssl/privkey.pem
 #
 RUN pip install --upgrade -r /app/requirements.txt
 

@@ -22,13 +22,6 @@ declare global {
   }
 }
 
-interface FormData {
-  firstName: string;
-  lastName: string;
-  phoneNumber: string;
-  email: string;
-}
-
 const EvaluationForm: React.FC = () => {
   const [step, setStep] = useState(1);
   const [address, setAddress] = useState<string>("");
@@ -196,7 +189,7 @@ const EvaluationForm: React.FC = () => {
       } else {
         setStep(step + 1);
       }
-    } if (step == 12) {
+    } if (step === 12) {
       console.log("Form submitted", {
         address,
         city,
@@ -248,7 +241,7 @@ const EvaluationForm: React.FC = () => {
     }
   };
 
-  if (step == 13) {
+  if (step === 13) {
       return (
         <div id="evaluation" className="flex flex-col mt-10 w-full text-white max-w-[1026px] max-md:max-w-full">
         <div className="flex flex-col justify-center self-center py-1 max-w-full text-6xl font-bold text-center max-md:text-4.2xl">
@@ -280,7 +273,7 @@ const EvaluationForm: React.FC = () => {
               setAddress={setAddress} 
               onNext={handleNext} 
             />
-            <NextButton onClick={handleNext} isLastStep={step == 1} />
+            <NextButton onClick={handleNext} isLastStep={step === 1} />
           </div>
         )}
         {step === 2 && (
@@ -290,7 +283,7 @@ const EvaluationForm: React.FC = () => {
               onSizeChange={(size) => setApartmentSize(size)}
               permissionForNextStep={setIsNextStepAllowed}
             />
-            <NextButton onClick={handleNext} isLastStep={step == 2} />
+            <NextButton onClick={handleNext} isLastStep={step === 2} />
           </div>
         )}
         {step === 3 && (
@@ -300,7 +293,7 @@ const EvaluationForm: React.FC = () => {
               onSizeChange={(size) => setKitchenSize(size)}
               permissionForNextStep={setIsNextStepAllowed}
             />
-            <NextButton onClick={handleNext} isLastStep={step == 3} />
+            <NextButton onClick={handleNext} isLastStep={step === 3} />
           </div>
         )}
         {step === 4 && (
@@ -310,7 +303,7 @@ const EvaluationForm: React.FC = () => {
               onCountChange={(count) => setRoomCount(count)}
               permissionForNextStep={setIsNextStepAllowed}
             />
-            <NextButton onClick={handleNext} isLastStep={step == 4} />
+            <NextButton onClick={handleNext} isLastStep={step === 4} />
           </div>
         )}
         {step === 5 && (
@@ -320,7 +313,7 @@ const EvaluationForm: React.FC = () => {
               onCountChange={(count) => setApartmentFloor(count)}
               permissionForNextStep={setIsNextStepAllowed}
             />
-            <NextButton onClick={handleNext} isLastStep={step == 5} />
+            <NextButton onClick={handleNext} isLastStep={step === 5} />
           </div>
         )}
         {step === 6 && (
@@ -330,7 +323,7 @@ const EvaluationForm: React.FC = () => {
               onCountChange={(count) => setFloorCount(count)}
               permissionForNextStep={setIsNextStepAllowed}
             />
-            <NextButton onClick={handleNext} isLastStep={step == 6} />
+            <NextButton onClick={handleNext} isLastStep={step === 6} />
           </div>
         )}
         {step === 7 && (
@@ -340,7 +333,7 @@ const EvaluationForm: React.FC = () => {
               onSizeChange={(size) => setApartmentYear(size)}
               permissionForNextStep={setIsNextStepAllowed}
             />
-            <NextButton onClick={handleNext} isLastStep={step == 7} />
+            <NextButton onClick={handleNext} isLastStep={step === 7} />
           </div>
         )}
         {step === 8 && (
@@ -350,7 +343,7 @@ const EvaluationForm: React.FC = () => {
               onTypeChange={(type) => setMaterialType(type)}
               permissionForNextStep={setIsNextStepAllowed}
             />
-            <NextButton onClick={handleNext} isLastStep={step == 8} />
+            <NextButton onClick={handleNext} isLastStep={step === 8} />
           </div>
         )}
         {step === 9 && (
@@ -360,7 +353,7 @@ const EvaluationForm: React.FC = () => {
               onSizeChange={(size) => setBalconyType(size)}
               permissionForNextStep={setIsNextStepAllowed}
             />
-            <NextButton onClick={handleNext} isLastStep={step == 9} />
+            <NextButton onClick={handleNext} isLastStep={step === 9} />
           </div>
         )}
         {step === 10 && (
@@ -370,7 +363,7 @@ const EvaluationForm: React.FC = () => {
               onTypeChange={(type) => setApartmentType(type)}
               permissionForNextStep={setIsNextStepAllowed}
             />
-            <NextButton onClick={handleNext} isLastStep={step == 10} />
+            <NextButton onClick={handleNext} isLastStep={step === 10} />
           </div>
         )}
         {step === 11 && (
@@ -380,7 +373,7 @@ const EvaluationForm: React.FC = () => {
               onTypeChange={(type) => setApartmentView(type)}
               permissionForNextStep={setIsNextStepAllowed}
             />
-            <NextButton onClick={handleNext} isLastStep={step == 11} />
+            <NextButton onClick={handleNext} isLastStep={step === 11} />
           </div>
         )}
         {step === 12 && (
@@ -390,7 +383,7 @@ const EvaluationForm: React.FC = () => {
               onFormDataChange={handleFormDataChange}
               onSubmit={handleContactFormSubmit}
             />
-            <NextButton onClick={handleNext} isLastStep={step == 12} />
+            <NextButton onClick={handleNext} isLastStep={step === 12} />
           </div>
         )}
       </div>

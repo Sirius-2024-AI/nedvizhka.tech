@@ -2,8 +2,8 @@ FROM node:16-alpine
 
 WORKDIR /tmp
 
-COPY ../frontend_main /usr/share/nginx/html/frontend_main
-COPY ../frontend_business /usr/share/nginx/html/frontend_business
+COPY ./frontend_main /usr/share/nginx/html/frontend_main
+COPY ./frontend_business /usr/share/nginx/html/frontend_business
 
 WORKDIR /usr/share/nginx/html/frontend_main
 

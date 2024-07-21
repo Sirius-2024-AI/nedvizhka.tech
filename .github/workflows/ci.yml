@@ -18,7 +18,13 @@ jobs:
             
             - name: Build Docker image
               run:
-                  docker-compose -f docker-compose.yml build
+                cp -r frontend_main nginx/frontend_main;
+                cp -r frontend_business nginx/frontend_business;
+                npm install --prefix ./frontend_main;
+                npm run --prefix frontend_main build;
+                npm install --prefix ./frontend_business;
+                npm run --prefix frontend_business build;
+                docker-compose -f docker-compose.yml build;
 
             - name: Start Docker Compose services
               run:

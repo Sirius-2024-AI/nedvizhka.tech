@@ -19,8 +19,8 @@ services:
       DATABASE_USER: admin
       DATABASE_PASSWORD: admin
       SMTP_PASSWORD: cpEibJnwF6mjQbYqZYkS
-      DATABASE_HOST: 81.200.149.136
-      ML_MODEL_HOST: 81.200.149.136
+      DATABASE_HOST: database
+      ML_MODEL_HOST: model
     restart: always
     depends_on:
       - database

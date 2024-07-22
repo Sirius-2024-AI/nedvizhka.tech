@@ -43,4 +43,3 @@ jobs:
                 port: ${{ secrets.PORT  }}
                 script: |
                   ${{ secrets.SCRIPT  }}
-                  pm2 restart 0

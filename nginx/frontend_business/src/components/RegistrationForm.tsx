@@ -29,7 +29,7 @@ const RegistrationForm: React.FC = () => {
       return;
     }
     console.log(formData);
-    fetch('http://business.nedvizhka.tech:8000/api/business/request', {
+    fetch('https://api.nedvizhka.tech/api/business/request', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

@@ -35,16 +35,12 @@ jobs:
                   docker-compose -f docker-compose.yml down
 
             
-    deploy:
-        runs-on: ubuntu-latest
-
-        steps:
-          - name: Build & start on remote server
-            uses: appleboy/ssh-action@master
-            with:
-                host: ${{ secrets.IP  }}
-                username: ${{ secrets.USER  }}
-                password: ${{ secrets.PASSWORD  }}
-                port: ${{ secrets.PORT  }}
-                script: |
-                  ${{ secrets.SCRIPT  }}
+            - name: Build & Start on remote server
+              uses: appleboy/ssh-action@master
+              with:
+                  host: ${{ secrets.IP  }}
+                  username: ${{ secrets.USER  }}
+                  password: ${{ secrets.PASSWORD  }}
+                  port: ${{ secrets.PORT  }}
+                  script: |
+                    ${{ secrets.SCRIPT  }}

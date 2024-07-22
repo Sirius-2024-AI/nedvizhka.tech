@@ -3,8 +3,8 @@ FROM nginx:stable-alpine
 COPY frontend_main/build /usr/share/nginx/html/frontend_main
 COPY frontend_business/build /usr/share/nginx/html/frontend_business
 COPY nginx.conf /etc/nginx/conf.d/default.conf
-COPY fullchain.pem .
-COPY privkey.pem .
+COPY fullchain.pem /ssl/fullchain.pem
+COPY privkey.pem /ssl/privkey.pem
 
 
 EXPOSE 80

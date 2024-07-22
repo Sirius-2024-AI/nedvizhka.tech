@@ -21,7 +21,7 @@ export const routes = [
     },
     {
       title: "Для физических лиц",
-      href: "http://nedvizhka.tech/"
+      href: "http://www.nedvizhka.tech/"
     },
   ];
 

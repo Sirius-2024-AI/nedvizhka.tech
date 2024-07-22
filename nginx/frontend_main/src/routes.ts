@@ -9,6 +9,6 @@ export const routes = [
   },
   {
     title: "Для бизнеса",
-    href: "/for-business"
+    href: "http://business.nedvizhka.tech"
   },
 ];

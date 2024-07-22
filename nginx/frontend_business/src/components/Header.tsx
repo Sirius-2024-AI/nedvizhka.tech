@@ -35,7 +35,7 @@ const Header: React.FC<HeaderProps> = ({ logo }) => {
           FAQ
         </a>
         <a
-          href="http://nedvizhka.tech/"
+          href="http://www.nedvizhka.tech/"
           className="justify-center px-px py-1"
         >
           Для физических лиц

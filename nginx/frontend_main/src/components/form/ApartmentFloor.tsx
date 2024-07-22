@@ -32,7 +32,7 @@ const RoomCount: React.FC<ApartmentFloorProps> = ({ count, onCountChange, permis
       <div className="flex gap-5 justify-between items-start px-7 py-5 mt-4 text-center whitespace-nowrap rounded-3xl bg-zinc-300 w-full max-md:flex-wrap max-md:px-5">
         <input
           type="number"
-          value={count}
+          value={Number(count).toString()}
           onChange={(e) => onCountChange(changeValue(e, permissionForNextStep))}
           className="bg-zinc-300 text-black text-opacity-100 outline-none"
         />

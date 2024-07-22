@@ -1,4 +1,5 @@
-name: Build and Push Docker Image
+name: Build and Test on GitHub
+
 on:
     push:
         branches:
@@ -15,13 +16,13 @@ jobs:
             - name: Checkout code
               uses: actions/checkout@v4
             
-            - name: Build Docker image
+            - name: Build Docker image on GitHub
               env:
                   CI: ""
               run:
                 docker-compose -f docker-compose.yml build;
-
-            - name: Start Docker Compose services
+            
+            - name: Start Docker Compose services on GitHub
               run:
                   docker-compose -f docker-compose.yml up -d
 
@@ -29,6 +30,6 @@ jobs:
               run:
                   echo "Running tests..."
                   
-            - name:
+            - name: Stop Docker Compose services on GitHub
               run:
                   docker-compose -f docker-compose.yml down

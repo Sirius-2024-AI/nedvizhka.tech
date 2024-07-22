@@ -36,7 +36,7 @@ const ApartmentSize: React.FC<ApartmentSizeProps> = ({
       <div className="flex gap-5 justify-between items-start px-7 py-5 mt-4 max-w-full text-center whitespace-nowrap rounded-3xl bg-zinc-300 w-[558px] max-md:flex-wrap max-md:px-5">
         <input
           type="number"
-          value={size}
+          value={Number(size).toString()}
           onChange={(e) => onSizeChange(changeValue(e, permissionForNextStep))}
           className="text-black text-opacity-100 bg-zinc-300 outline-none"
         />

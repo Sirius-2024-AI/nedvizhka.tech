@@ -20,9 +20,9 @@ const Hero: React.FC<HeroProps> = ({ heroImage, buttonImage }) => {
               <h1 className="max-md:max-w-full max-md:text-4.2xl leading-none">
                 <span className="leading-none font-mabry bg-gradient-to-r from-[#0DB6B6] to-[#5454F1] inline-block text-transparent bg-clip-text">оценки недвижимости</span>
               </h1>
-              <a className="font-normal mt-11 text-lg max-md:mt-10 max-md:max-w-full">
-                  Сервис на базе AI собственной разработки поможет генерировать отчеты моментально и без дополнительных издержек на сотрудников оценки недвижимости
-              </a>
+              <p className="font-normal mt-11 text-lg max-md:mt-10 max-md:max-w-full">
+                Сервис на базе AI собственной разработки поможет генерировать отчеты моментально и без дополнительных издержек на сотрудников оценки недвижимости
+              </p>
             </div>
             <a href="#connect">
               <img

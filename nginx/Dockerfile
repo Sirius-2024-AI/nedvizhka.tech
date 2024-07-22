@@ -8,6 +8,7 @@ COPY privkey.pem /ssl/privkey.pem
 
 
 EXPOSE 80
+EXPOSE 443
 CMD ["nginx", "-g", "daemon off;"]
 
 

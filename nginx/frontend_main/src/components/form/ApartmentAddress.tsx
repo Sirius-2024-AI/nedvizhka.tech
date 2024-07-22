@@ -29,7 +29,7 @@ const AddressInput: React.FC<AddressInputProps> = ({ address, setAddress, onNext
             value={value}
             onChange={handleAddressChange}
             inputProps={{
-              placeholder: "г. Москва, ул. Бачуринская, д. 9, к. 1",
+              placeholder: "г. Ленинград, пр-т Строителей, д. 1,",
               className: "justify-center items-start px-7 py-5 mt-4 max-w-full rounded-3xl bg-zinc-300 text-black text-opacity-100 w-[558px] w-full max-md:flex-wrap max-md:px-5",
               'aria-label': "Введите адрес квартиры"
             }}

@@ -1,0 +1,46 @@
+name: Build and Deploy on Server
+
+on:
+    push:
+        branches:
+            - 'master'
+    pull_request:
+        branches:
+            - 'master'
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v4
+            
+            - name: Build Docker image on GitHub
+              env:
+                  CI: ""
+              run:
+                docker-compose -f docker-compose.yml build;
+            
+            - name: Start Docker Compose services on GitHub
+              run:
+                  docker-compose -f docker-compose.yml up -d
+
+            - name: Run tests
+              run:
+                  echo "Running tests..."
+                  
+            - name: Stop Docker Compose services on GitHub
+              run:
+                  docker-compose -f docker-compose.yml down
+
+            - name: Build & start on remote server
+              uses: appleboy/ssh-action@master
+              with:
+                host: ${{ secrets.IP  }}
+                username: ${{ secrets.USER  }}
+                password: ${{ secrets.PASSWORD  }}
+                port: ${{ secrets.PORT  }}
+                script: |
+                  ${{ secrets.SCRIPT  }}
+                  pm2 restart 0

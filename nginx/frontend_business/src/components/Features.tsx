@@ -6,7 +6,7 @@ const Features: React.FC = () => {
     {
       title: (
         <>
-          <span className="text-white">точность </span>90%
+          <span className="text-white">точность </span>95%
         </>
       ),
       description:

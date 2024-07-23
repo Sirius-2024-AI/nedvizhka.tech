@@ -26,8 +26,8 @@ function App() {
             </h2>
             <Tools />
 
-            <h2 id="connect" className="max-md:text-4.2xl leading-none mt-20 text-6xl font-mabry text-center text-white w-[760px] max-md:max-w-full max-md:text-4xl">
-                <span className="max-md:text-4.2xl leading-none bg-clip-text text-transparent bg-gradient-to-r font-mabry from-cyan-300 to-blue-500">зарегистрируйтесь</span> <br></br> <span className='max-md:text-4.2xl'>и получите доступ</span>
+            <h2 id="connect" className="px-5 max-md:text-4.2xl leading-none mt-20 text-6xl font-mabry text-center text-white w-[760px] max-md:max-w-full max-md:text-4xl">
+                <span className="max-md:text-4.2xl leading-none bg-clip-text text-transparent bg-gradient-to-r font-mabry from-cyan-300 to-blue-500">получите доступ</span> <br></br> <span className='max-md:text-4.2xl'>к системе</span>
             </h2>
             <RegistrationForm />
             <Footer logo="https://cdn.builder.io/api/v1/image/assets/TEMP/511411a769bc234fcb6fa56062e640b3f4cc9b46d9d461ceeaa3f456815f5575?apiKey=325f674200924c05a4b34be8928260b3&"

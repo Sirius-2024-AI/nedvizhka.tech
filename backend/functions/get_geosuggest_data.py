@@ -20,4 +20,4 @@ def get_geosuggest_data(query, api_key):
         return response.text
     else:
         # В случае ошибки возвращаем None или сообщение об ошибке
-        return {"error": f"Request failed with status code {response.status_code}"}
+        return None

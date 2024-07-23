@@ -49,7 +49,12 @@ def individual_valuation_route(parameters, config=None, db=None, db_metadata=Non
         raise Exception('You must provide Geosuggest api key to config')
 
     # Работа с Геосаджест API
-    response = get_geosuggest_data(parameters.address, config['third_party_api']['geosuggest'])
+    response
+    for api_key in config['third_party_api']['geosuggest']:
+        response = get_geosuggest_data(parameters.address, api_key)
+        if response is not None:
+            break
+        
     response_json = json.loads(response)
 
     geosuggest_response = None
@@ -102,8 +107,6 @@ def individual_valuation_route(parameters, config=None, db=None, db_metadata=Non
     valuation_value = model_response.json()['price']
 
     # Сохранение отчетного электронного письма
-    file_name = f"mail_{round(time.time()) * random.randint(1, 99999)}.html"
-
     match parameters.repair_type:
         case 'without':
             parameters.repair_type = 'Без ремонта'

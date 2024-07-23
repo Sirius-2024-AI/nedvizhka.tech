@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6caeedb3.css",
-    "main.js": "/static/js/main.3de3dd58.js",
+    "main.js": "/static/js/main.2b2cbe9f.js",
     "static/js/453.a6a97343.chunk.js": "/static/js/453.a6a97343.chunk.js",
     "static/media/MabryPro-Bold.ttf": "/static/media/MabryPro-Bold.8b1f2d83b656878cf4b0.ttf",
     "static/media/MabryPro-Bold_1.ttf": "/static/media/MabryPro-Bold_1.8b1f2d83b656878cf4b0.ttf",
@@ -11,11 +11,11 @@
     "static/media/MabryPro-Bold_1.woff2": "/static/media/MabryPro-Bold_1.e85cea1eabf60c25db09.woff2",
     "index.html": "/index.html",
     "main.6caeedb3.css.map": "/static/css/main.6caeedb3.css.map",
-    "main.3de3dd58.js.map": "/static/js/main.3de3dd58.js.map",
+    "main.2b2cbe9f.js.map": "/static/js/main.2b2cbe9f.js.map",
     "453.a6a97343.chunk.js.map": "/static/js/453.a6a97343.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6caeedb3.css",
-    "static/js/main.3de3dd58.js"
+    "static/js/main.2b2cbe9f.js"
   ]
 }

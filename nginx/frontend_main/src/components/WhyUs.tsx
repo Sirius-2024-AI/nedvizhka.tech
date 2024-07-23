@@ -11,7 +11,7 @@ const WhyUs: React.FC = () => {
           <div className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
             <div className="flex flex-col grow px-8 py-10 w-full text-4xl font-bold text-white bg-white bg-opacity-10 rounded-[30px] max-md:px-5">
               <h3>
-                <span className="font-mabry leading-none">точность <br></br><span className="font-mabry bg-gradient-to-r from-[#0DB6B6] to-[#5454F1] inline-block text-transparent bg-clip-text">90%</span></span>
+                <span className="font-mabry leading-none">точность <br></br><span className="font-mabry bg-gradient-to-r from-[#0DB6B6] to-[#5454F1] inline-block text-transparent bg-clip-text">95%</span></span>
               </h3>
               <p className="mt-5 text-lg font-medium">
                 Оценка базируется на анализе большого объема данных о продажах
